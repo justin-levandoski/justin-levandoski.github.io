@@ -1,0 +1,75 @@
+/*
+Original design: Basic Profile (v1.0 - March 23rd, 2011) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://andreasviklund.com/templates/basic-profile/
+*/
+
+*{margin:0; padding:0;}
+body {background:#fff url(background.jpg) top center no-repeat; color:#303030; font:84% Arial,Helvetica,sans-serif; line-height:1.6em;}
+a {color:#0288D1; text-decoration:none; font-weight:bold;}
+a:hover {text-decoration:underline;}
+p,ul,ol,dl {margin:0 0 30px 0;}
+h1 {color:#616161; font-size:3.2em; line-height:1.1em; letter-spacing:-3px; margin:20px 0 0 0;}
+h1 a {color:#239a23; text-transform:none;}
+h2 {font-size:2.2em; color:#333; margin:0 0 20px; letter-spacing:-1px; border-bottom:2px solid #eee;}
+h3 {color:#757575; font-size:1.8em; margin:10px 0 15px 0; letter-spacing:-1px; border-bottom:1px solid #eee;}
+h1,h2,h3 {font-weight:700; line-height:1.4em;}
+#wrap {color:#303030; margin:40px auto; padding:0; width:980px;}
+#content {text-align:left; width:600px; padding-right:40px;}
+#sidebar {float:right; width:280px; padding-left:40px; border-left:2px solid #ccc; }
+#sidebar ul {list-style:none; margin:0; padding:10px 0 0 0; border-top:1px solid #eee;}
+#sidebar li {list-style:none; font-size:1em; margin:0 0 10px; padding:0 0 10px 0; color:#888; border-bottom:1px solid #eee;}
+#sidebar li a {font-size:1.1em;}
+#sidebar h2 {font-size: 1.4em;}
+.slogan {color:#888; font-size:1.4em; font-weight:700; margin:0 0 20px 0; letter-spacing:-1px;}
+.readmore {text-align:right; margin:0 20px 30px 0;}
+.timestamp {display:block; font-weight:700; color:#888; text-align:right; width:150px; padding:20px 20px 20px 0; float:left; margin:0 20px 20px 0; border-right:2px solid #eee;}
+.timestamp a {font-weight:normal;}
+.credits {display:block; clear:left; font-size:0.9em; color:#aaa; margin:20px 0;}
+.credits a {color:#888;}
+.clear {clear:both;}
+.box {margin:0 0 20px 0; padding:10px; border:1px solid #c0c0c0; background-color:#fafbfc; color:#505050; line-height:1.5em;}
+.announcebox {margin:0 0 20px 0; padding:10px; border:1px solid #c0c0c0; background-color:#f7f9bd; color:#505050; line-height:1.5em;}
+
+ul.projects, ul.works, ul.slides, ul.data {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 5px;
+    margin: 0px;
+    line-height: 16px;
+}
+ul.projects b, ul.works b, ul.slides b, ul.data b {
+    line-height: 10px
+}
+ul.works img, ul.slides img, ul.data img {
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px #000;
+    float: left;
+}
+ul.works a, ul.slides a, ul.data a {
+    font-size: 110%;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+ul.works a:hover, ul.slides a:hover, ul.data a:hover {
+    color: red;
+    text-decoration: underline;
+}
+ul.works p, ul.slides p, ul.data p {
+    padding-top: 0px;
+    padding-left: 55px;
+    min-height: 60px;
+    text-align: left;
+}
+ul.projects p, ul.slides p, ul.data p {
+    min-height: 35px;
+    min-height: 35px;
+}
+ul.projects .info, ul.works .info, ul.slides .info, ul.data .info {
+    font-size: 100%;
+    color: #363636;
+}
+ul.projects img {
+    float: left;
+    padding-right: 10px;
+}
